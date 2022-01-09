@@ -1,3 +1,4 @@
+# Create
 POST /api/admin/articles
 Article {
   id: number,
@@ -9,7 +10,7 @@ Comment {
   id: number 
 }
 
-
+# Read
 GET /api/admin/articles?category=business 
 Response: Article[] 
 Article { 
@@ -22,7 +23,7 @@ Comment {
   id: number 
 }
 
-
+# Update
 PUT /api/admin/articles?articleId
 Article {
   id: number,
@@ -44,5 +45,5 @@ Article {
 Comment { 
   id: number 
 
-
+# Delete
 DELETE /api/admin/articles?articleId
